@@ -1,5 +1,5 @@
 <div align="center">
-      <h1> <img src="http://bytesofintelligences.com/wp-content/uploads/2023/03/Exploring-AIs-Secrets-1.png" width="200px"><br/> Cassava Leaf Disease Classification Challenge Documentation </h1>
+      <h1> <img src="http://bytesofintelligences.com/wp-content/uploads/2023/03/Exploring-AIs-Secrets-1.png" width="200px"><br/> Cassava Leaf Disease Classification by Custom Model </h1>
      </div>
 
 <body>

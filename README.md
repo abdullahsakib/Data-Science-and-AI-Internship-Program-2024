@@ -65,22 +65,11 @@ Which is an innovative platform designed to propel aspiring data scientists and 
 ### 2.1 Dataset Overview
 
 The dataset for the Cassava Leaf Disease Classification Challenge is a comprehensive collection of annotated images representing various common diseases affecting cassava plants, one of the most crucial crop resources in tropical and subtropical regions. It includes thousands of high-resolution images categorized into several disease classes, as well as a category for healthy leaves.This porvides 5 folder/class of data,  some data are incorrect as inside one named folder one may find data of another folder. Dataset is highly imbalace. Most of them are Cassava Mosaic Disease (CMD).
-'Cassava Mosaic Disease (CMD)': 10526,
-   'Healthy': 2061,
-   'Cassava Green Mottle (CGM)': 1909,
-   'Cassava Brown Streak Disease (CBSD)': 1751,
-   'Cassava Bacterial Blight (CBB)': 870}
 
 
 ### 2.2 Accessing the Dataset
 
-The dataset is hosted on Kaggle, a popular platform for data science competitions and collaborative projects. Participants can access the dataset by following these steps:
-
-1. **Create or Sign into Kaggle:** Navigate to [Kaggle's website](https://www.kaggle.com) and either sign in to your existing account or create a new one.
-2. **Navigate to the Dataset:** Use the search feature on Kaggle to find the "Cassava Leaf Disease Classification" dataset or access it directly through this link: [Cassava Leaf Disease Classification Dataset](https://www.kaggle.com/datasets/gauravduttakiit/cassava-leaf-disease-classification).
-3. **Download the Dataset:** Once on the dataset page, look for the "Download" button (usually located at the top right of the page) to download the dataset files to your local machine.
-
-Participants are encouraged to familiarize themselves with the dataset upon download, noting the structure, format, and the different classes of diseases included. This preliminary step is crucial for effective data exploration and preprocessing, setting the stage for successful model development.
+The dataset is hosted on Kaggle, a popular platform for data science competitions and collaborative projects. 
 
 
 ## 3. Task Specifications
@@ -88,17 +77,21 @@ Participants are encouraged to familiarize themselves with the dataset upon down
 ### 3.1 Data Management
 
 #### 3.1.1 Data Acquisition
-Participants are required to download the dataset from Kaggle, as outlined in the Data Source section. Ensure a stable internet connection and sufficient storage space, as image datasets can be large. Verify the integrity of the downloaded files through checksums provided on the dataset page, if available.
-
+Data was downloaded from Kaggle
 #### 3.1.2 Exploratory Data Analysis (EDA)
 Conduct an in-depth EDA to understand the dataset's characteristics:
-- **Distribution of Classes:** Assess the balance between different disease categories and healthy leaves.
-- **Image Quality and Variability:** Examine the images for quality, resolution, and variability among classes to identify any preprocessing needs.
-- **Data Insights:** Look for patterns or anomalies in the data that could influence model training and performance.
+- **Distribution of Classes:** There was 5 class ,
+ -'Cassava Mosaic Disease (CMD)': 10526,/n
+   -'Healthy': 2061,
+   -'Cassava Green Mottle (CGM)': 1909,
+'Cassava Brown Streak Disease (CBSD)': 1751,
+   -'Cassava Bacterial Blight (CBB)': 870}
 
+- **Image Quality and Variability:** Most of the image was high resulation having 800*600 shape.
+- **Data Insights:** Some data are incorrect as inside one named folder one may find data of another folder. Dataset is highly imbalace. Most of them are Cassava Mosaic Disease (CMD).
 #### 3.1.3 Data Preprocessing
 Prepare the dataset for modeling:
-- **Image Resizing:** Standardize image sizes while maintaining aspect ratios.
+- **Image Resizing:** image was resized to 256*256 Standardize image sizes while maintaining aspect ratios.
 - **Normalization:** Scale pixel values to a range that is suitable for model training.
 - **Augmentation:** Implement image augmentation techniques to increase dataset diversity and reduce overfitting.
 

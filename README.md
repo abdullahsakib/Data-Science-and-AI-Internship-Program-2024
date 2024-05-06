@@ -57,15 +57,20 @@
 
 This project was done as a part of "Bytes of Intelligence: Data Science and AI Internship Program," 
 This program provides a comprehensive learning experience in data science and AI through workshops, challenges, and mentorship.
-Which is an innovative platform designed to propel aspiring data scientists and AI enthusiasts into the forefront of technological advancement and real-world problem-solving. This program is meticulously structured to offer participants a unique blend of learning, practical experience, and competition, fostering a comprehensive understanding of artificial intelligence, machine learning, and data science principles.
-
+Which is an innovative platform designed to propel aspiring data scientists and AI enthusiasts into the forefront of technological advancement and real-world problem-solving. 
 
 
 ## 2. Data Source
 
 ### 2.1 Dataset Overview
 
-The dataset for the Cassava Leaf Disease Classification Challenge is a comprehensive collection of annotated images representing various common diseases affecting cassava plants, one of the most crucial crop resources in tropical and subtropical regions. It includes thousands of high-resolution images categorized into several disease classes, as well as a category for healthy leaves. Though some data are incorrect as 
+The dataset for the Cassava Leaf Disease Classification Challenge is a comprehensive collection of annotated images representing various common diseases affecting cassava plants, one of the most crucial crop resources in tropical and subtropical regions. It includes thousands of high-resolution images categorized into several disease classes, as well as a category for healthy leaves.This porvides 5 folder/class of data,  some data are incorrect as inside one named folder one may find data of another folder. Dataset is highly imbalace. Most of them are Cassava Mosaic Disease (CMD).
+'Cassava Mosaic Disease (CMD)': 10526,
+   'Healthy': 2061,
+   'Cassava Green Mottle (CGM)': 1909,
+   'Cassava Brown Streak Disease (CBSD)': 1751,
+   'Cassava Bacterial Blight (CBB)': 870}
+
 
 ### 2.2 Accessing the Dataset
 

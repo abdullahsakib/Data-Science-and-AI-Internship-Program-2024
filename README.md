@@ -92,16 +92,17 @@ Conduct an in-depth EDA to understand the dataset's characteristics:
 #### 3.1.3 Data Preprocessing
 Prepare the dataset for modeling:
 - **Image Resizing:** image was resized to 256*256 Standardize image sizes while maintaining aspect ratios.
-- **Normalization:** Scale pixel values to a range that is suitable for model training.
-- **Augmentation:** Implement image augmentation techniques to increase dataset diversity and reduce overfitting.
-
+- **Normalization:** Normalization was done to 0 to 1 range.
+- **Augmentation:** Though data was imbalance but there was medium amount of data and augmentation was slightly incresing the performance in the compensation of huge amount of time. So only two augmentation was done. 
 ### 3.2 Model Engineering
 
 #### 3.2.1 Dataset Splitting
-Divide the dataset into three subsets:
-- **Training Set:** The largest portion, used to train the model.
-- **Validation Set:** Used to tune model parameters and prevent overfitting.
-- **Test Set:** Reserved for evaluating the model's performance on unseen data.
+The dataset was divided into three subsets:
+Train dataset provided by kaggle divided into 2 set 
+•	Training Set: The largest portion, used to train the model.
+•	Validation Set: Used to tune model parameters and prevent overfitting.
+Test dataset provided by kaggle was reserved for evaluating the model's performance on unseen data.
+
 
 #### 3.2.2 Model Architecture
 Design a CNN architecture tailored to the task:

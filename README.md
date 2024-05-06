@@ -19,7 +19,6 @@
 
 1. [Introduction](#introduction)
    - 1.1 Program Overview
-   - 1.2 Challenge Objective
 2. [Data Source](#data-source)
    - 2.1 Dataset Overview
    - 2.2 Accessing the Dataset
@@ -56,26 +55,17 @@
 
 ### 1.1 Program Overview
 
-Welcome to the "Bytes of Intelligence: Data Science and AI Internship Program," an innovative platform designed to propel aspiring data scientists and AI enthusiasts into the forefront of technological advancement and real-world problem-solving. This program is meticulously structured to offer participants a unique blend of learning, practical experience, and competition, fostering a comprehensive understanding of artificial intelligence, machine learning, and data science principles.
+This project was done as a part of "Bytes of Intelligence: Data Science and AI Internship Program," 
+This program provides a comprehensive learning experience in data science and AI through workshops, challenges, and mentorship.
+Which is an innovative platform designed to propel aspiring data scientists and AI enthusiasts into the forefront of technological advancement and real-world problem-solving. This program is meticulously structured to offer participants a unique blend of learning, practical experience, and competition, fostering a comprehensive understanding of artificial intelligence, machine learning, and data science principles.
 
-Through a series of challenges, workshops, and mentorship sessions, interns will gain hands-on experience with cutting-edge tools and technologies, enabling them to tackle complex issues and make significant contributions to the field. The program is committed to nurturing talent and equipping participants with the skills needed to excel in their future careers, while also addressing some of the most pressing challenges facing industries today.
 
-### 1.2 Challenge Objective
-
-The centerpiece of this internship is the Cassava Leaf Disease Classification Challenge. This challenge tasks participants with developing a sophisticated machine learning model capable of accurately classifying images of cassava leaves into various disease states or identifying them as healthy. The primary objectives of the challenge are:
-
-- **To Apply AI in Agriculture:** Leverage artificial intelligence to address critical issues in agriculture, improving crop yield and disease management.
-- **Innovation:** Encourage innovative approaches and solutions in developing AI models that can accurately diagnose plant health from images.
-- **Skill Enhancement:** Enhance participants' skills in data preprocessing, model development, and evaluation within the context of a real-world problem.
-- **Research and Development:** Promote research and development in the area of plant disease detection, contributing to academic knowledge and practical applications in agriculture.
-
-By achieving these objectives, the challenge aims to not only advance participants' technical and analytical skills but also contribute to sustainable agricultural practices through the application of AI.
 
 ## 2. Data Source
 
 ### 2.1 Dataset Overview
 
-The dataset for the Cassava Leaf Disease Classification Challenge is a comprehensive collection of annotated images representing various common diseases affecting cassava plants, one of the most crucial crop resources in tropical and subtropical regions. It includes thousands of high-resolution images categorized into several disease classes, as well as a category for healthy leaves. This dataset provides a rich resource for developing and testing machine learning models aimed at identifying and classifying plant diseases based on visual evidence.
+The dataset for the Cassava Leaf Disease Classification Challenge is a comprehensive collection of annotated images representing various common diseases affecting cassava plants, one of the most crucial crop resources in tropical and subtropical regions. It includes thousands of high-resolution images categorized into several disease classes, as well as a category for healthy leaves. Though some data are incorrect as 
 
 ### 2.2 Accessing the Dataset
 

@@ -179,10 +179,36 @@ Validation and test accuracy by custom model on un-balanced dataset
 
 
 #### 3.3.1 Performance Testing
-Evaluate the final model's performance on the test set to assess its generalization ability and readiness for real-world application.
+
+Confusion Matrix  by EfficientNetB0 on balanced dataset
+![pre, re, f1 effic](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/5455a018-6f00-4452-968b-f5f0c54712e9)
+
+Confusion Matrix  by custom model on balanced dataset
+![custom_confusio](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/cf489269-ccd1-4747-9118-86a5b3fdb478)
+
+Confusion Matrix  by custom model on un-balanced dataset
+![confusion_mat_unb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/99e83cb0-de1f-4083-ba22-98a198d899cb)
+
+image prediction by EfficientNetB0
+![pred_eff](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/d592a458-c282-432c-b070-2b77a87cc140)
+
+image prediction by custom model trained on balanced dataset
+![Custom_pred](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/bfa36222-0ce7-468d-9552-e3ff0f12973a)
+
+image prediction by custom model trained on un-balanced dataset
+
+![pred_unb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/47295193-e2e6-4234-9b5b-6440e5c6a407)
 
 #### 3.3.2 Metrics Reporting
-Report comprehensive metrics including, but not limited to, accuracy, precision, recall, and F1 score for each class and overall. Interpret these metrics to provide insights into the model's strengths and weaknesses.
+precision, recall, and F1 score of EfficientNetB0
+![pre, re, f1 effic](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/cfdcc8d1-4889-423f-814d-7f1a355b72ea)
+
+precision, recall, and F1 score of custom model trained on balanced dataset
+![custom_pr, rec](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/56435de9-3db2-475a-a013-e56dbce5d4e1)
+
+precision, recall, and F1 score of custom model trained on un-balanced dataset
+
+![pre_unb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/60c3bd7b-7627-4b38-bc66-009e2d2a6927)
 
 ### 3.4 Documentation
 

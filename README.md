@@ -128,9 +128,9 @@ Design a CNN architecture tailored to the task:
 Mostly used Convolutional and Maxpooling layer were used repetedly. Then in the second part dense and dropout layer used after falttening.
 
 
-<div style="text-align:center;">
-    <img src="https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/fabd3039-cff8-47a2-8e46-9f1261a6b733" alt="2nd">
-</div>
+<p align="center">
+  <img src="https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/8e7e825f-10df-480e-b81c-b00fa18d1dc0" alt="Centered Image" />
+</p>
 
 
 - **Activation Functions:** Except the last layer where "Softmax" activation function was used in all other case "Relu" activation function was used.

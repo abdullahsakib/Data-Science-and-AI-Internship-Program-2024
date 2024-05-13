@@ -138,13 +138,45 @@ Mostly used Convolutional and Maxpooling layer were used repetedly. Then in the 
 - **Transfer Learning:** Pretrained EfficientNetB0 model was used to compare the performance. 
 
 #### 3.2.3 Model Training and Validation
-Model was tranied on both balanced and unbalanced data .
+Model was tranied on both balanced and unbalanced data for 50 epoch.
 
-Training and validation accuracy by EfficientNetB0
+Training and validation accuracy by EfficientNetB0 on balanced dataset
 
 ![acc_g_eff](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/5bcc6671-1039-4857-af61-63f634f12233)
 
+Training and validation accuracy by custom model on balanced dataset
+
+
+![custom_acc](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/3b6cdd17-e74c-40d7-a7d6-48381fe5b93e)
+
+Training and validation accuracy by custom model on un-balanced dataset
+
+
+![unb_acc_train](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/a9c3762f-cfa0-4e4b-9f6b-748f58f39721)
+
+Training and validation loss by EfficientNetB0 on balanced dataset
+
+![loss_g_eff](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/e59cdf43-4236-4421-9ee8-86d0e0d3f944)
+
+Training and validation loss by custom model on balanced dataset
+
+![custom_loss](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/9c8b6b32-ce41-4ce5-a70b-222b93270a0a)
+
+Training and validation loss by custom model on un-balanced dataset
+![unb_loss](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/072e087c-291b-4507-86d6-353d4bcb60a6)
+
+
 ### 3.3 Evaluation and Analysis
+Validation and test accuracy by EfficientNetB0 on balanced dataset
+
+![accuracy_effic](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/3e426750-d77a-4eed-9a35-a2949f9181d0)
+
+Validation and test accuracy by custom model on balanced dataset
+![custom acc](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/3993fb9e-4342-46ed-a7e5-454e12c88c64)
+
+Validation and test accuracy by custom model on un-balanced dataset
+![unb_acc](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/0b75a69e-fdaf-467e-abd9-f70c2b6bbdfa)
+
 
 #### 3.3.1 Performance Testing
 Evaluate the final model's performance on the test set to assess its generalization ability and readiness for real-world application.

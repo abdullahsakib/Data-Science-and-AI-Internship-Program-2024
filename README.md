@@ -201,6 +201,12 @@ image prediction by custom model trained on un-balanced dataset
 
 ![pred_unb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/47295193-e2e6-4234-9b5b-6440e5c6a407)
 
+
+Though custom model trained on un-balanced dataset seems performed better on accuracy but confusion matrix and image predtion shows that our custom model trained on balanced dataset actually performs batter.Custom model trained on balanced dataset predicts all classes where as Custom model trained on un-balanced dataset predicts on Cassava Mosaic Disease (CMD) .On the other hand trainable data of unbalanced dataset was 13693 compared to 8000 balanced data. 
+
+Certainly pretrained model performed betten than custom model. Because of lackings of knowledge our custom model is quiet simple.
+
+
 #### 3.3.2 Metrics Reporting
 precision, recall, and F1 score of EfficientNetB0
 ![pre, re, f1 effic](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/cfdcc8d1-4889-423f-814d-7f1a355b72ea)
@@ -211,6 +217,8 @@ precision, recall, and F1 score of custom model trained on balanced dataset
 
 precision, recall, and F1 score of custom model trained on un-balanced dataset
 ![matunb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/e631d73b-52f8-4b1e-af68-a612d2aeefb4)
+
+#### Conclusion and Future Work:
 
 
 ### 3.4 Documentation

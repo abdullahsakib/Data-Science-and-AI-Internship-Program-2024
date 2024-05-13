@@ -96,11 +96,20 @@ Conduct an in-depth EDA to understand the dataset's characteristics:
   ![data show](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/878458ea-00af-4340-ba13-31a730db6671)
 
 #### 3.1.3 Data Preprocessing
-Prepare the dataset for modeling:
+Preparation of the dataset for modeling:
+Data set was turned into a pandas dataframe having label and image data.
+
+As data was imbalance augmentation was slightly incresing the performance in the compensation of huge amount of time. 
+
 - **Image Resizing:** image was resized to 256*256 Standardize image sizes while maintaining aspect ratios.
-- **Normalization:** Normalization was done to 0 to 1 range.
-- **Augmentation:** As data was imbalance augmentation was slightly incresing the performance in the compensation of huge amount of time.  
+- **Rescaling:** Normalization was done to 0 to 1 range.
+- and other augmentation like Randomflip, RandomRotation, RandomZoom, RandomConstrast was done.
 ### 3.2 Model Engineering
+
+Test was done on both custom model and pretrained model.
+
+![model](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/7fe35a96-0cf4-4b6e-9fe7-a8bbaf0eccaa)
+
 
 #### 3.2.1 Dataset Splitting
 The dataset was divided into three subsets:

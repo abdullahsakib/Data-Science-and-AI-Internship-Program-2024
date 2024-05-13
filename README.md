@@ -80,20 +80,26 @@ The dataset is hosted on Kaggle, a popular platform for data science competition
 Data was downloaded from Kaggle
 #### 3.1.2 Exploratory Data Analysis (EDA)
 Conduct an in-depth EDA to understand the dataset's characteristics:
-- **Distribution of Classes:** There was 5 class ,
- -'Cassava Mosaic Disease (CMD)': 10526,/n
-   -'Healthy': 2061,
-   -'Cassava Green Mottle (CGM)': 1909,
-'Cassava Brown Streak Disease (CBSD)': 1751,
-   -'Cassava Bacterial Blight (CBB)': 870}
+- **Distribution of Classes:** There was 5 class:
+   - 'Cassava Mosaic Disease (CMD)': 10526,
+   - 'Healthy': 2061,
+   - 'Cassava Green Mottle (CGM)': 1909,
+   - 'Cassava Brown Streak Disease (CBSD)': 1751,
+   - 'Cassava Bacterial Blight (CBB)': 870}
+
+
+![distri_data](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/e2a6880b-7105-4ccd-b360-ee128f5b0928)
 
 - **Image Quality and Variability:** Most of the image was high resulation having 800*600 shape.
 - **Data Insights:** Some data are incorrect as inside one named folder one may find data of another folder. Dataset is highly imbalace. Most of them are Cassava Mosaic Disease (CMD).
+  
+  ![data show](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/878458ea-00af-4340-ba13-31a730db6671)
+
 #### 3.1.3 Data Preprocessing
 Prepare the dataset for modeling:
 - **Image Resizing:** image was resized to 256*256 Standardize image sizes while maintaining aspect ratios.
 - **Normalization:** Normalization was done to 0 to 1 range.
-- **Augmentation:** Though data was imbalance but there was medium amount of data and augmentation was slightly incresing the performance in the compensation of huge amount of time. So only two augmentation was done. 
+- **Augmentation:** As data was imbalance augmentation was slightly incresing the performance in the compensation of huge amount of time.  
 ### 3.2 Model Engineering
 
 #### 3.2.1 Dataset Splitting

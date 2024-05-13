@@ -117,7 +117,7 @@ The dataset was divided into three subsets:
 Train dataset provided by kaggle divided into 2 set 
 * Training Set: The largest portion, used to train the model.
 * Validation Set: Used to tune model parameters and prevent overfitting.
-Test dataset provided by kaggle was reserved for evaluating the model's performance on unseen data.
+* Test dataset provided by kaggle was reserved for evaluating the model's performance on unseen data.
 
 
 #### 3.2.2 Model Architecture
@@ -172,22 +172,24 @@ Validation and test accuracy by EfficientNetB0 on balanced dataset
 ![accuracy_effic](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/3e426750-d77a-4eed-9a35-a2949f9181d0)
 
 Validation and test accuracy by custom model on balanced dataset
-![custom acc](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/3993fb9e-4342-46ed-a7e5-454e12c88c64)
+![acbb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/f07471d8-bc13-436e-bd37-d7e9b68eaea0)
 
 Validation and test accuracy by custom model on un-balanced dataset
-![unb_acc](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/0b75a69e-fdaf-467e-abd9-f70c2b6bbdfa)
 
+![accunb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/dead1036-7589-49dd-9222-e0c52f11820a)
 
 #### 3.3.1 Performance Testing
 
 Confusion Matrix  by EfficientNetB0 on balanced dataset
-![pre, re, f1 effic](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/5455a018-6f00-4452-968b-f5f0c54712e9)
+
+![con_eff](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/4cd88dea-b388-4b6c-80f6-5d2e2bfc06cc)
 
 Confusion Matrix  by custom model on balanced dataset
-![custom_confusio](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/cf489269-ccd1-4747-9118-86a5b3fdb478)
+![cm_b](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/f5eadc77-7add-4bc0-aade-f721435540d3)
 
 Confusion Matrix  by custom model on un-balanced dataset
-![confusion_mat_unb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/99e83cb0-de1f-4083-ba22-98a198d899cb)
+![cmub](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/6df0c673-98a5-4542-839f-db1a53bed487)
+
 
 image prediction by EfficientNetB0
 ![pred_eff](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/d592a458-c282-432c-b070-2b77a87cc140)
@@ -204,11 +206,12 @@ precision, recall, and F1 score of EfficientNetB0
 ![pre, re, f1 effic](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/cfdcc8d1-4889-423f-814d-7f1a355b72ea)
 
 precision, recall, and F1 score of custom model trained on balanced dataset
-![custom_pr, rec](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/56435de9-3db2-475a-a013-e56dbce5d4e1)
+
+![matb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/aa085311-f52f-47e0-b717-59b8ce83a175)
 
 precision, recall, and F1 score of custom model trained on un-balanced dataset
+![matunb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/e631d73b-52f8-4b1e-af68-a612d2aeefb4)
 
-![pre_unb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/60c3bd7b-7627-4b38-bc66-009e2d2a6927)
 
 ### 3.4 Documentation
 

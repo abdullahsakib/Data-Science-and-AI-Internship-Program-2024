@@ -98,6 +98,7 @@ Conduct an in-depth EDA to understand the dataset's characteristics:
 #### 3.1.3 Data Preprocessing
 Preparation of the dataset for modeling:
 Data set was turned into a pandas dataframe having label and image data.
+Data was balanced and model was tested on both balanced and unbalanced data.
 
 As data was imbalance augmentation was slightly incresing the performance in the compensation of huge amount of time. 
 
@@ -108,25 +109,40 @@ As data was imbalance augmentation was slightly incresing the performance in the
 
 Test was done on both custom model and pretrained model.
 
-![model](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/7fe35a96-0cf4-4b6e-9fe7-a8bbaf0eccaa)
 
+![model2](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/c8bbbe07-ec69-444c-91f6-8a82e94e4ee2)
 
 #### 3.2.1 Dataset Splitting
 The dataset was divided into three subsets:
 Train dataset provided by kaggle divided into 2 set 
-•	Training Set: The largest portion, used to train the model.
-•	Validation Set: Used to tune model parameters and prevent overfitting.
+* Training Set: The largest portion, used to train the model.
+* Validation Set: Used to tune model parameters and prevent overfitting.
 Test dataset provided by kaggle was reserved for evaluating the model's performance on unseen data.
 
 
 #### 3.2.2 Model Architecture
 Design a CNN architecture tailored to the task:
-- **Layer Structure:** Choose an appropriate combination of convolutional, pooling, and dense layers.
-- **Activation Functions:** Select activation functions that facilitate learning complex patterns.
-- **Transfer Learning:** Optionally employ pre-trained models to leverage existing knowledge and improve performance.
+- **Layer Structure:**
+![1st](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/bd02b8b7-8f50-4367-a86c-b8de26bda4e0)
+
+Mostly used Convolutional and Maxpooling layer were used repetedly. Then in the second part dense and dropout layer used after falttening.
+
+
+<div style="text-align:center;">
+    <img src="https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/fabd3039-cff8-47a2-8e46-9f1261a6b733" alt="2nd">
+</div>
+
+
+- **Activation Functions:** Except the last layer where "Softmax" activation function was used in all other case "Relu" activation function was used.
+  
+- **Transfer Learning:** Pretrained EfficientNetB0 model was used to compare the performance. 
 
 #### 3.2.3 Model Training and Validation
-Train the model using the training set, while regularly evaluating on the validation set to adjust hyperparameters and model architecture as needed to optimize performance.
+Model was tranied on both balanced and unbalanced data .
+
+Training and validation accuracy by EfficientNetB0
+
+![acc_g_eff](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/5bcc6671-1039-4857-af61-63f634f12233)
 
 ### 3.3 Evaluation and Analysis
 

@@ -34,22 +34,9 @@
    - 3.3 Evaluation and Analysis
      - 3.3.1 Performance Testing
      - 3.3.2 Metrics Reporting
-   - 3.4 Documentation
-     - 3.4.1 Report Compilation
-     - 3.4.2 Report Content Requirements
-4. [Evaluation Criteria](#evaluation-criteria)
-   - 4.1 Data Analysis and Preparation
-   - 4.2 Model Design and Technical Innovation
-   - 4.3 Accuracy and Analytical Depth
-   - 4.4 Clarity and Comprehensiveness of Documentation
-5. [Submission Guidelines](#submission-guidelines)
-   - 5.1 Submission Deadline
-   - 5.2 Submission Format
-   - 5.3 Where to Submit
-6. [Frequently Asked Questions (FAQs)](#faqs)
-7. [Contact Information](#contact-information)
+   - 3.4 
+ 
 
----
 
 ## 1. Introduction
 
@@ -222,102 +209,6 @@ precision, recall, and F1 score of custom model trained on balanced dataset
 precision, recall, and F1 score of custom model trained on un-balanced dataset
 ![matunb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/e631d73b-52f8-4b1e-af68-a612d2aeefb4)
 
-#### Conclusion and Future Work:
+#### 3.4 Conclusion and Future Work:
 
-
-### 3.4 Documentation
-
-#### 3.4.1 Report Compilation
-Compile a detailed project report that documents the entire process, findings, and analysis. The report should be structured, clear, and comprehensive, suitable for both technical and non-technical audiences.
-
-#### 3.4.2 Report Content Requirements
-The report must include:
-- **Introduction:** Overview of the challenge and its objectives.
-- **Data Analysis:** Insights from the EDA and preprocessing steps.
-- **Model Development:** Detailed description of the model architecture, training process, and any challenges encountered.
-- **Results and Evaluation:** Presentation and interpretation of evaluation results, including a discussion on model performance.
-- **Conclusion and Future Work:** Summary of findings, limitations of the current approach, and suggestions for future improvements or areas of research.
-
-
-## 4. Evaluation Criteria
-
-The following criteria will be used to evaluate submissions comprehensively. Each criterion is designed to assess the depth of work and the innovation brought by participants to their project.
-
-### 4.1 Data Analysis and Preparation
-- **Thoroughness of EDA:** Quality and depth of the exploratory data analysis, including identification of key patterns, anomalies, and insights derived from the dataset.
-- **Effectiveness of Preprocessing:** Appropriateness and sophistication of data preprocessing steps, including image resizing, normalization, and augmentation techniques.
-
-### 4.2 Model Design and Technical Innovation
-- **Innovativeness of the Model:** Creativity and originality in the model design, including the adoption of new approaches or technologies in machine learning and AI.
-- **Complexity and Scalability:** The complexity of the model architecture and its scalability, considering the balance between model performance and computational efficiency.
-
-### 4.3 Accuracy and Analytical Depth
-- **Model Performance:** Accuracy of the model across all classes, including a balanced performance in recognizing each disease state.
-- **Depth of Analysis:** Comprehensive analysis of model results, including interpretation of performance metrics, identification of areas of strength and weakness, and insights into the model's predictions.
-
-### 4.4 Clarity and Comprehensiveness of Documentation
-- **Quality of Writing:** Clarity, coherence, and organization of the project report, making it accessible to both technical and non-technical audiences.
-- **Detail and Insightfulness:** Depth of the documentation, including detailed explanations of the methodology, analysis, results, and thoughtful discussion on conclusions and future work.
-
-## 5. Submission Guidelines
-
-### 5.1 Submission Deadline
-Participants must submit their projects by April 10, 2024, to be considered for evaluation.
-
-### 5.2 Submission Format
-Your submission should include:
-- A comprehensive project report in PDF format.
-- A link to a public repository containing all source code used in the project, including a `requirements.txt` file for any Python libraries and clear instructions for replicating the results.
-
-### 5.3 Where to Submit
-Participants are required to contribute their project to the following GitHub repository dedicated to the "Data Science and AI Internship Program 2024":
-- **Repository URL:** [Data Science and AI Internship Program 2024](https://github.com/ArtificialIntelligenceResearch/Data-Science-and-AI-Internship-Program-2024)
-
-**Steps to Contribute:**
-1. **Fork the Repository:** Navigate to the repository URL and click on the 'Fork' button to create a copy of the project in your GitHub account.
-2. **Add Your Project:** Clone your forked repository to your local machine, add your project report and code to a new directory named after your project, and push these changes back to your forked repository on GitHub.
-3. **Create a Pull Request:** From your forked repository on GitHub, initiate a pull request to the original "Data Science and AI Internship Program 2024" repository. Ensure your pull request clearly describes your project and any contributions made.
-
-Please ensure your submission is well-documented and thoroughly tested to facilitate the evaluation process.
-
----
-
-Participants are encouraged to adhere closely to these evaluation criteria and submission guidelines to ensure their project is accurately assessed and receives the recognition it deserves.
-
-
-## 6. Frequently Asked Questions (FAQs)
-
-### How do I access the dataset?
-
-The dataset is hosted on Kaggle. You can access it by visiting the [Cassava Leaf Disease Classification Dataset](https://www.kaggle.com/datasets/gauravduttakiit/cassava-leaf-disease-classification) page. If you're new to Kaggle, you may need to create an account or log in to download the dataset.
-
-### Can I use external datasets or pre-trained models?
-
-Yes, you are encouraged to use external datasets and pre-trained models if they enhance your project. However, please ensure that any external resources are publicly available, free to use, and properly cited in your documentation.
-
-### What programming languages can I use?
-
-While Python is the preferred language due to its extensive support for data science and machine learning libraries, you are free to use any programming language that you are comfortable with. However, ensure that your submission includes clear instructions for running your code, regardless of the language used.
-
-### Can I work in a team?
-
-The challenge is designed to be undertaken individually to assess each participant's skills and understanding. However, collaboration for learning and discussion is encouraged, provided that each submission is the result of individual effort.
-
-### How will my project be evaluated?
-
-Your project will be evaluated based on the criteria outlined in the "Evaluation Criteria" section, focusing on data analysis and preparation, model design and technical innovation, accuracy and analytical depth, and the clarity and comprehensiveness of your documentation.
-
-### What happens if I miss the submission deadline?
-
-Submissions received after the deadline may not be considered for evaluation. If you anticipate difficulties meeting the deadline due to exceptional circumstances, please contact the program coordinators as soon as possible to discuss potential accommodations.
-
-## 7. Contact Information
-
-For any inquiries or further assistance regarding the Cassava Leaf Disease Classification Challenge, please feel free to reach out to the program coordinators:
-
-- **Email:** [bytesofintelligences@gmail.com](mailto:bytesofintelligences@gmail.com)
-- **GitHub Issue Tracker:** For technical issues related to the dataset or submission process, consider opening an issue in the [Data Science and AI Internship Program 2024 GitHub repository](https://github.com/ArtificialIntelligenceResearch/Data-Science-and-AI-Internship-Program-2024).
-- **LinkedIn Group:** Join our LinkedIn group [Bytes of Intelligence](https://www.linkedin.com/groups/14148330/) for updates, discussions, and networking with fellow participants and mentors.
-
-Our team is dedicated to providing support and ensuring a positive experience throughout the challenge. Don't hesitate to get in touch with us for any questions or feedback you may have.
 

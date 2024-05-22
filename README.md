@@ -109,6 +109,8 @@ As data was imbalance augmentation was slightly incresing the performance in the
 
 Test was done on both custom model and pretrained model.
 
+Mostly used Convolutional and Maxpooling layer were used repetedly. Then in the second part dense and dropout layer used after flattening.
+
 
 ![model2](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/c8bbbe07-ec69-444c-91f6-8a82e94e4ee2)
 
@@ -125,7 +127,9 @@ Design a CNN architecture tailored to the task:
 - **Layer Structure:**
 ![1st](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/bd02b8b7-8f50-4367-a86c-b8de26bda4e0)
 
-Mostly used Convolutional and Maxpooling layer were used repetedly. Then in the second part dense and dropout layer used after falttening.
+* In the first section 7 Convolutional layer followed by 7 Maxpooling layer used , number of neurons were 32, 64 & 128. kernel size were (3,3) .
+
+* In the second part 2 dense layer were used followed by dropout layer after flattening. In this case number of neurons or filters were 256, 128 and 35% and 30% dropout was done to prevent overfitting. 
 
 
 <p align="center">
@@ -202,7 +206,7 @@ image prediction by custom model trained on un-balanced dataset
 ![pred_unb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/47295193-e2e6-4234-9b5b-6440e5c6a407)
 
 
-Though custom model trained on un-balanced dataset seems performed better on accuracy but confusion matrix and image predtion shows that our custom model trained on balanced dataset actually performs batter.Custom model trained on balanced dataset predicts all classes where as Custom model trained on un-balanced dataset predicts on Cassava Mosaic Disease (CMD) .On the other hand trainable data of unbalanced dataset was 13693 compared to 8000 balanced data. 
+Though custom model trained on un-balanced dataset seems performed better on accuracy but confusion matrix and image predtion shows that our custom model trained on balanced dataset actually performs batter.Custom model trained on balanced dataset predicts all classes where as Custom model trained on un-balanced dataset predicts on Cassava Mosaic Disease (CMD) .On the other hand trainable data of unbalanced dataset was 13693 compared to 8000 balanced data. If Custom model trained on balanced dataset were trained for more epoch and more data surely it would performed better.
 
 Certainly pretrained model performed betten than custom model. Because of lackings of knowledge our custom model is quiet simple.
 

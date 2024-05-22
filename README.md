@@ -104,8 +104,8 @@ Mostly used Convolutional and Maxpooling layer were used repetedly. Then in the 
 #### 3.2.1 Dataset Splitting
 The dataset was divided into three subsets:
 Train dataset provided by kaggle divided into 2 set 
-* Training Set: The largest portion, used to train the model.
-* Validation Set: Used to tune model parameters and prevent overfitting.
+* Training Set: The largest portion, used to train the model. 80% of the Train dataset provided by kaggle was used for training.
+* Validation Set: Used to tune model parameters and prevent overfitting. 20% of the Train dataset provided by kaggle was used as validation dataset.
 * Test dataset provided by kaggle was reserved for evaluating the model's performance on unseen data.
 
 
@@ -113,7 +113,7 @@ Train dataset provided by kaggle divided into 2 set
 
 **Layer Structure:**
 
--* In the first section 7 Convolutional layer followed by 7 Maxpooling layer used , number of neurons were 32, 64 & 128. kernel size were (3,3) . 
+* In the first section 7 Convolutional layer followed by 7 Maxpooling layer used , number of neurons were 32, 64 & 128. kernel size were (3,3) . 
 
 ![1st](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/bd02b8b7-8f50-4367-a86c-b8de26bda4e0)
 

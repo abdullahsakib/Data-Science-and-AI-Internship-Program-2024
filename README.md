@@ -196,9 +196,9 @@ Model was tranied on both balanced and unbalanced data for 50 epoch.
 ![pred_unb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/47295193-e2e6-4234-9b5b-6440e5c6a407)
 
 
-Though custom model trained on un-balanced dataset seems performed better on accuracy but confusion matrix and image predtion shows that our custom model trained on balanced dataset actually performs batter.Custom model trained on balanced dataset predicts all classes where as Custom model trained on un-balanced dataset predicts on Cassava Mosaic Disease (CMD) .On the other hand trainable data of unbalanced dataset was 13693 compared to 8000 balanced data. If Custom model trained on balanced dataset were trained for more epoch and more data surely it would performed better.
+Though custom model trained on un-balanced dataset seems performed better on accuracy but confusion matrix and image predtion shows that our custom model trained on balanced dataset actually performs batter.Custom model trained on balanced dataset predicts all classes where as Custom model trained on un-balanced dataset predicts on Cassava Mosaic Disease (CMD). On the other hand trainable data of unbalanced dataset was 13693 compared to 8000 balanced data. If Custom model trained on balanced dataset were trained for more epoch and more data surely it would performed better.
 
-Certainly pretrained model performed betten than custom model. Because of lackings of knowledge our custom model is quiet simple.
+Certainly pretrained model performed betten than custom model. Because of lackings of knowledge my custom model is quiet simple.
 
 
 #### 3.3.2 Metrics Reporting
@@ -214,5 +214,10 @@ Certainly pretrained model performed betten than custom model. Because of lackin
 ![matunb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/e631d73b-52f8-4b1e-af68-a612d2aeefb4)
 
 #### 3.4 Conclusion and Future Work:
+
+Though the performance was not satisfactory but as my first project i am happy with that. My custom  model was designed to have the best performane by fine tuning the number of neurons, number of layers, drop-out percentage but for various reason performance was average. 
+
+However the dataset and model performance was visualized nicely and performance of EfficientNetB0 was quite similar to custom model trained on un-balanced dataset. The dataset was imbalance and my sampling technique was not up-to-date. Hope my future work will be satisfactory.
+
 
 

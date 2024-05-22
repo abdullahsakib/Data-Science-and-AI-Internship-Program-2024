@@ -34,7 +34,7 @@
    - 3.3 Evaluation and Analysis
      - 3.3.1 Performance Testing
      - 3.3.2 Metrics Reporting
-   - 3.4 
+   - 3.4 Conclusion and Future Work
  
 
 
@@ -110,19 +110,18 @@ Train dataset provided by kaggle divided into 2 set
 
 
 #### 3.2.2 Model Architecture
-Design a CNN architecture tailored to the task:
-- **Layer Structure:**
+
+**Layer Structure:**
+
+-* In the first section 7 Convolutional layer followed by 7 Maxpooling layer used , number of neurons were 32, 64 & 128. kernel size were (3,3) . 
+
 ![1st](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/bd02b8b7-8f50-4367-a86c-b8de26bda4e0)
 
-* In the first section 7 Convolutional layer followed by 7 Maxpooling layer used , number of neurons were 32, 64 & 128. kernel size were (3,3) .
-
 * In the second part 2 dense layer were used followed by dropout layer after flattening. In this case number of neurons or filters were 256, 128 and 35% and 30% dropout was done to prevent overfitting. 
-
 
 <p align="center">
   <img src="https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/8e7e825f-10df-480e-b81c-b00fa18d1dc0" alt="Centered Image" />
 </p>
-
 
 - **Activation Functions:** Except the last layer where "Softmax" activation function was used in all other case "Relu" activation function was used.
   
@@ -131,64 +130,68 @@ Design a CNN architecture tailored to the task:
 #### 3.2.3 Model Training and Validation
 Model was tranied on both balanced and unbalanced data for 50 epoch.
 
-Training and validation accuracy by EfficientNetB0 on balanced dataset
+* Training and validation accuracy by EfficientNetB0 on balanced dataset
 
 ![acc_g_eff](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/5bcc6671-1039-4857-af61-63f634f12233)
 
-Training and validation accuracy by custom model on balanced dataset
-
+* Training and validation accuracy by custom model on balanced dataset
 
 ![custom_acc](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/3b6cdd17-e74c-40d7-a7d6-48381fe5b93e)
 
-Training and validation accuracy by custom model on un-balanced dataset
-
+* Training and validation accuracy by custom model on un-balanced dataset
 
 ![unb_acc_train](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/a9c3762f-cfa0-4e4b-9f6b-748f58f39721)
 
-Training and validation loss by EfficientNetB0 on balanced dataset
+* Training and validation loss by EfficientNetB0 on balanced dataset
 
 ![loss_g_eff](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/e59cdf43-4236-4421-9ee8-86d0e0d3f944)
 
-Training and validation loss by custom model on balanced dataset
+* Training and validation loss by custom model on balanced dataset
 
 ![custom_loss](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/9c8b6b32-ce41-4ce5-a70b-222b93270a0a)
 
-Training and validation loss by custom model on un-balanced dataset
+* Training and validation loss by custom model on un-balanced dataset
+
 ![unb_loss](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/072e087c-291b-4507-86d6-353d4bcb60a6)
 
 
 ### 3.3 Evaluation and Analysis
-Validation and test accuracy by EfficientNetB0 on balanced dataset
+
+* Validation and test accuracy by EfficientNetB0 on balanced dataset
 
 ![accuracy_effic](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/3e426750-d77a-4eed-9a35-a2949f9181d0)
 
-Validation and test accuracy by custom model on balanced dataset
+* Validation and test accuracy by custom model on balanced dataset
+  
 ![acbb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/f07471d8-bc13-436e-bd37-d7e9b68eaea0)
 
-Validation and test accuracy by custom model on un-balanced dataset
+* Validation and test accuracy by custom model on un-balanced dataset
 
 ![accunb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/dead1036-7589-49dd-9222-e0c52f11820a)
 
 #### 3.3.1 Performance Testing
 
-Confusion Matrix  by EfficientNetB0 on balanced dataset
+* Confusion Matrix  by EfficientNetB0 on balanced dataset
 
 ![con_eff](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/4cd88dea-b388-4b6c-80f6-5d2e2bfc06cc)
 
-Confusion Matrix  by custom model on balanced dataset
+* Confusion Matrix  by custom model on balanced dataset
+
 ![cm_b](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/f5eadc77-7add-4bc0-aade-f721435540d3)
 
-Confusion Matrix  by custom model on un-balanced dataset
+* Confusion Matrix  by custom model on un-balanced dataset
+
 ![cmub](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/6df0c673-98a5-4542-839f-db1a53bed487)
 
+* image prediction by EfficientNetB0
 
-image prediction by EfficientNetB0
 ![pred_eff](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/d592a458-c282-432c-b070-2b77a87cc140)
 
-image prediction by custom model trained on balanced dataset
+* image prediction by custom model trained on balanced dataset
+  
 ![Custom_pred](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/bfa36222-0ce7-468d-9552-e3ff0f12973a)
 
-image prediction by custom model trained on un-balanced dataset
+* image prediction by custom model trained on un-balanced dataset
 
 ![pred_unb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/47295193-e2e6-4234-9b5b-6440e5c6a407)
 
@@ -199,14 +202,15 @@ Certainly pretrained model performed betten than custom model. Because of lackin
 
 
 #### 3.3.2 Metrics Reporting
-precision, recall, and F1 score of EfficientNetB0
+* precision, recall, and F1 score of EfficientNetB0
+  
 ![pre, re, f1 effic](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/cfdcc8d1-4889-423f-814d-7f1a355b72ea)
 
-precision, recall, and F1 score of custom model trained on balanced dataset
+* precision, recall, and F1 score of custom model trained on balanced dataset
 
-![matb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/aa085311-f52f-47e0-b717-59b8ce83a175)
+ ![matb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/aa085311-f52f-47e0-b717-59b8ce83a175)
 
-precision, recall, and F1 score of custom model trained on un-balanced dataset
+* precision, recall, and F1 score of custom model trained on un-balanced dataset
 ![matunb](https://github.com/abdullahsakib/Data-Science-and-AI-Internship-Program-2024/assets/54322794/e631d73b-52f8-4b1e-af68-a612d2aeefb4)
 
 #### 3.4 Conclusion and Future Work:
